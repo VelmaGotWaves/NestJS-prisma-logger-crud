@@ -1,0 +1,33 @@
+2/5/24, 3:04 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:04 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	AllExceptionsFilter	ThrottlerException: Too Many Requests
+2/5/24, 3:05 AM	AllExceptionsFilter	[object Object]
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	undefined	Request for ALL Employees	::1
+2/5/24, 3:05 AM	AllExceptionsFilter	Invalid `this.databaseService.employee.findMany()` invocation inC:\Users\ognje\Desktop\react-projecst\NEST_DAVE_GRAY\lesson01\src\employees\employees.service.ts:14:51  11 }  12   13 async findAll(role?: 'INTERN' | 'ENGINEER' | 'ADMIN') {→ 14   if(role) return this.databaseService.employee.findMany({         where: {           role: "PASTA"                 ~~~~~~~         }       })Invalid value for argument `role`. Expected Role.
+2/5/24, 3:09 AM	EmployeesController	Request for ALL Employees	::1
+2/5/24, 3:09 AM	AllExceptionsFilter	Invalid `this.databaseService.employee.findMany()` invocation inC:\Users\ognje\Desktop\react-projecst\NEST_DAVE_GRAY\lesson01\src\employees\employees.service.ts:14:51  11 }  12   13 async findAll(role?: 'INTERN' | 'ENGINEER' | 'ADMIN') {→ 14   if(role) return this.databaseService.employee.findMany({         where: {           role: "PASTA"                 ~~~~~~~         }       })Invalid value for argument `role`. Expected Role.
+2/5/24, 3:10 AM	EmployeesController	Request for ALL Employees	::1
